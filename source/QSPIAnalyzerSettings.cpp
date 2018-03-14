@@ -60,7 +60,7 @@ QSPIAnalyzerSettings::QSPIAnalyzerSettings()
 
 	mDummyCyclesInterface.reset(new AnalyzerSettingInterfaceNumberList());
 	mDummyCyclesInterface->SetTitleAndTooltip("# Dummy Clock Cycles", "");
-	for (U32 i = 1; i <= 15; i++)
+	for (U32 i = 0; i <= 32; i++)
 	{
 		std::stringstream ss;
 
@@ -72,6 +72,7 @@ QSPIAnalyzerSettings::QSPIAnalyzerSettings()
 
 	mAddressSizeInterface.reset(new AnalyzerSettingInterfaceNumberList());
 	mAddressSizeInterface->SetTitleAndTooltip("Address Size (bytes)", "");
+	mAddressSizeInterface->AddNumber(2, "Two", "two byte addresses");
 	mAddressSizeInterface->AddNumber(3, "Three", "three byte addresses");
 	mAddressSizeInterface->AddNumber(4, "Four", "four byte addresses");
 	mAddressSizeInterface->SetNumber(mAddressSize);

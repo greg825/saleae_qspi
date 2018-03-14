@@ -5,6 +5,9 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="AnalyzerSDK">
+      <UniqueIdentifier>{4774f332-8e38-4e22-9f80-2907b373671f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\QSPIAnalyzer.cpp">
@@ -38,6 +41,33 @@
     </ClInclude>
     <ClInclude Include="source\QSPISimulationDataGenerator.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyzerSDK-master\include\Analyzer.h">
+      <Filter>AnalyzerSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyzerSDK-master\include\AnalyzerChannelData.h">
+      <Filter>AnalyzerSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyzerSDK-master\include\AnalyzerHelpers.h">
+      <Filter>AnalyzerSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyzerSDK-master\include\AnalyzerResults.h">
+      <Filter>AnalyzerSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyzerSDK-master\include\AnalyzerSettingInterface.h">
+      <Filter>AnalyzerSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyzerSDK-master\include\AnalyzerSettings.h">
+      <Filter>AnalyzerSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyzerSDK-master\include\AnalyzerTypes.h">
+      <Filter>AnalyzerSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyzerSDK-master\include\LogicPublicTypes.h">
+      <Filter>AnalyzerSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyzerSDK-master\include\SimulationChannelDescriptor.h">
+      <Filter>AnalyzerSDK</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
