@@ -47,7 +47,6 @@ void QSPIMakeCommandList() {
 	qspi_cmds[0xB9] = { false,false,false,false,0x00,0x00,"Deep Power-Down" };
 	qspi_cmds[0xAB] = { false,false,false,false,0x00,0x00,"Release From DPD" };
 
-	qspi_cmds[0x02] = { true,false,true,true,0x01,0x0F,"LAN_CMD_WRITE" };
 	qspi_cmds[0xb2] = { true,false,true,true,0x01,0x0F,"LAN_CMD_SDADW" };
 	qspi_cmds[0x62] = { true,false,true,true,0x01,0x0F,"LAN_CMD_SQDW" };
 	qspi_cmds[0xe2] = { true,false,true,true,0x01,0x0F,"LAN_CMD_SQADW" };
